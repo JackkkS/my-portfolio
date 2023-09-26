@@ -42,7 +42,7 @@ function NavBar() {
             <li><Link to="/experience" onClick={() => handleLinkClick('/experience')} className={`${activeLink === '/experience' ? 'border-b-4 border-blue-400 text-zinc-300' : ''} hover:text-zinc-300 hover:border-b-4 border-blue-400`}>Experience</Link></li>
             <li><Link to="/project" onClick={() => handleLinkClick('/project')} className={`${activeLink === '/project' ? 'border-b-4 border-blue-400 text-zinc-300' : ''} hover:text-zinc-300 hover:border-b-4 border-blue-400`}>Projects</Link></li>
             <li><Link to="/contact" onClick={() => handleLinkClick('/contact')} className={`${activeLink === '/contact' ? 'border-b-4 border-blue-400 text-zinc-300' : ''} hover:text-zinc-300 hover:border-b-4 border-blue-400`}>Contact</Link></li>
-            <li><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1V_IRuWO6VoNuD0VaAsyjT2AaGGcOFBKU%2Fview%3Fusp%3Dsharing%26fbclid%3DIwAR3IZkSwnwzJ_X5bV1Z1OucxHawvRGlPWw_jh9dQoXmRdwiehOoAn6_OirI&h=AT2hh5BFHUevIFIdDTf0dhOiulsrvCcEx87JMrYlHn3lxvN6JmkevVrNne3FweODcgsCeBxsgQI2QWJevddbHo6QdAT9PHsn57SX5X3qxT-rNM7r3qAh6xFOtZwsbmhIhiySluzdP0uS_OVP3s-k8w" target="_blank">Resume</a></li>
+            <li><a href="https://drive.google.com/file/d/1V_IRuWO6VoNuD0VaAsyjT2AaGGcOFBKU/view?fbclid=IwAR3IZkSwnwzJ_X5bV1Z1OucxHawvRGlPWw_jh9dQoXmRdwiehOoAn6_OirI" target="_blank">Resume</a></li>
             <label className="relative inline-flex items-center cursor-pointer">
               <input type="checkbox" className="sr-only peer" onClick={toggleMode} />
               <div
@@ -77,8 +77,9 @@ function NavBar() {
                <li><Link to="/skills" onClick={() => handleLinkClick('/skills')} className={`${activeLink === '/skills' ? 'border-b-4 border-blue-400 text-zinc-300' : ''} hover:text-zinc-300 hover:border-b-4 border-blue-400`}>Skills</Link></li>
                <li><Link to="/education" onClick={() => handleLinkClick('/education')} className={`${activeLink === '/education' ? 'border-b-4 border-blue-400 text-zinc-300' : ''} hover:text-zinc-300 hover:border-b-4 border-blue-400`}>Education</Link></li>
                <li><Link to="/experience" onClick={() => handleLinkClick('/experience')} className={`${activeLink === '/experience' ? 'border-b-4 border-blue-400 text-zinc-300' : ''} hover:text-zinc-300 hover:border-b-4 border-blue-400`}>Experience</Link></li>
+               <li><Link to="/project" onClick={() => handleLinkClick('/project')} className={`${activeLink === '/project' ? 'border-b-4 border-blue-400 text-zinc-300' : ''} hover:text-zinc-300 hover:border-b-4 border-blue-400`}>Projects</Link></li>
                <li><Link to="/contact" onClick={() => handleLinkClick('/contact')} className={`${activeLink === '/contact' ? 'border-b-4 border-blue-400 text-zinc-300' : ''} hover:text-zinc-300 hover:border-b-4 border-blue-400`}>Contact</Link></li>
-               <li><a href="#">Resume</a></li>
+               <li><a href="https://drive.google.com/file/d/1V_IRuWO6VoNuD0VaAsyjT2AaGGcOFBKU/view?fbclid=IwAR3IZkSwnwzJ_X5bV1Z1OucxHawvRGlPWw_jh9dQoXmRdwiehOoAn6_OirI" target="_blank">Resume</a></li>
                  <label className="relative inline-flex items-center mt-5 cursor-pointer">
                    <input type="checkbox" className="sr-only peer" onClick={toggleMode} />
                    <div
