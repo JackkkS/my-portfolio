@@ -5,7 +5,7 @@ const projects = [
         descriptpj_1: "MY Portfolio Website made in React.",
         descriptpj_2: "Dark Mode Support.",
         descriptpj_3: "Support responsive.",
-        github: "",
+        github: "https://github.com/JackkkS/my-portfolio",
         live: "https://roaring-gnome-cb6ad1.netlify.app/",
     },
     {
