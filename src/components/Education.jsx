@@ -32,7 +32,7 @@ function Education() {
                   </TimelineSeparator>
                   <TimelineContent>
                     <div className={`p-6 rounded-lg font-mono ${bgCrad}`}>
-                      <Academy level="University" title="Rajamangala University of Technology Krungthep." gpa="3.06" from="2019" to="2023"/>
+                      <Academy level="University" title="Rajamangala University of Technology Krungthep." major="Information And Technology" gpa="3.06" from="2019" to="2023"/>
                     </div>
                   </TimelineContent>
                 </TimelineItem>
@@ -43,7 +43,7 @@ function Education() {
                   </TimelineSeparator>
                   <TimelineContent>
                     <div className={`p-6 rounded-lg font-mono ${bgCrad}`}>
-                      <Academy level="High School" title="Samutparkarn School" gpa="3.04" from="2016" to="2019"/>
+                      <Academy level="High School" title="Samutprakarn School" gpa="3.04" from="2016" to="2019"/>
                     </div>
                   </TimelineContent>
                 </TimelineItem>

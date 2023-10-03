@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Academy({level, title, gpa, from, to }) {
+function Academy({level, title, gpa, from, to, major}) {
   return (
     <div>
         <div>
@@ -9,6 +9,9 @@ function Academy({level, title, gpa, from, to }) {
                 <h4 className='text-xl font-bold py-3'>{title}</h4>
                 <ul className='py-2'>
                    <li>GPA : {gpa}</li>
+                   {major &&(
+                    <li>Major : {major}</li>
+                   )}
                    <li>From : {from}</li>
                    <li>TO : {to}</li>
                 </ul>
