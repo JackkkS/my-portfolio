@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar'
 import { useTheme } from './ThemeContext';
+import jackImage from './data/img/jacks.jpg';
 
 function About() {
 
@@ -15,7 +16,7 @@ function About() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold my-8 text-center">About</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className='flex justify-center items-start'>
-                <img className='w-80 max-w-md md:max-w-full rounded-full drop-shadow-2xl' src="https://scontent.fbkk2-4.fna.fbcdn.net/v/t1.15752-9/383913904_1557569391649160_6548097130497018787_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeE4RXfHWLakHoIUrJ1TH3lEfcowSCH7gR19yjBIIfuBHcExOuXn2yKMK9aFFSNVunGUD4T2QOZK6SKRpi5bUuUQ&_nc_ohc=FJ2ee1QSiegAX8TkOBJ&_nc_ht=scontent.fbkk2-4.fna&oh=03_AdS7Ur-3W19I7-I8dQyyVPKEJQXeaQMSXor-tu8_Ef4LSA&oe=6539D6F7" alt="" />
+                <img className='w-80 max-w-md md:max-w-full rounded-full drop-shadow-2xl' src={jackImage} alt="" />
               </div>
               <div>
                 <h2 className='text-2xl md:text-3xl py-2 md:py-5'>Hello, this is about me</h2>
